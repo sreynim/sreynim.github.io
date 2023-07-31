@@ -1,0 +1,154 @@
+body {
+    background-color: #fbfbfb;
+    }
+    @media (min-width: 991.98px) {
+    main {
+    padding-left: 240px;
+    }
+}
+
+.html {
+    overflow-x: auto;
+    overflow-y: auto;
+    display: flex
+}
+
+/* Date picker */
+
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+.datepicker {
+    margin: 0.4rem 0;
+    width: 220px;
+    right: 50px;
+    margin-left: 10px;
+}
+    
+/* Sidebar */
+
+.scroll {
+    overflow-y: auto;
+}
+
+.form-range {
+    color: black;
+}
+
+.container-fluid {
+    background-color: #62b16e;
+    color: #273225;
+}
+
+.sidebar {
+    position: absolute;
+    bottom: 200px;
+    background-color: rgb(255, 255, 255);
+    overflow-y: auto;
+}
+
+.nav {
+    width: 276px;
+    background-color: blueviolet
+}
+
+.dropdown-menu {
+    background-color: #273225
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 70px 0 0; /* Height of navbar */
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+    width: 280px;
+    z-index: 600;
+}
+    
+@media (max-width: 991.98px) {
+.sidebar {
+    width: 100%;
+    }
+    }
+    .sidebar .active {
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+    
+.sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: 0.5rem;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+/* Distance Radius Slider */
+
+.slidecontainer {
+    width: 100%;
+}
+  
+.slider {
+    -webkit-appearance: none;
+    width: 90%;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    margin-left: 10;
+}
+  
+.slider:hover {
+    opacity: 1;
+}
+  
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #04AA6D;
+    cursor: pointer;
+}
+  
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #04AA6D;
+    cursor: pointer;
+}
+
+/* Card - Search Results */
+
+.card {
+    right: 200px;
+    margin-top: 40px;
+    display: flex;
+}
+    
+
+/* Filter button */
+.btn {
+    width: 60%;
+    align-self: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.keywordsearch {
+    right: 200px;
+    nav-down: 50px;
+    text-align: center;
+}
